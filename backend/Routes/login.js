@@ -27,7 +27,7 @@ async function login(req, res) {
         console.log(2)
         await otpRequests.deleteOne({ email: email })
         const token = jwt.sign({ _id: user._id }, secretKey, { expiresIn: '30d' });
-        return res.status(200).cookie('authToken', token, { httpOnly: true, sameSite: 'Strict', secure: true, maxAge: 1000 * 60 * 60 * 24 * 30 }).json({ message: "Login Successful", "username": user.username });
+        return res.status(200).cookie('authToken', token, { httpOnly: true, sameSite: 'None', secure: true, maxAge: 1000 * 60 * 60 * 24 * 30 }).json({ message: "Login Successful", "username": user.username });
 
     } catch (e) {
         return res.status(400).json({ message: 'Some Error has occured' });
