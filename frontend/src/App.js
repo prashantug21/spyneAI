@@ -5,6 +5,7 @@ import Header from './Pages/Components/Javascript/Header';
 import React, { useEffect, useState } from 'react';
 import Routers from './Routers';
 import axios from 'axios';
+import './index.css';
 const BASE_URL = process.env.REACT_APP_BASE_URL;
 
 
