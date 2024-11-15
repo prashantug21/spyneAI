@@ -36,8 +36,7 @@ Thumbs.db
 # TypeScript
 /dist/
 
-# Sass
-*.css
+
 
 # Environment files
 .env.local

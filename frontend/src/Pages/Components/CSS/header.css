@@ -1,0 +1,65 @@
+#navbar,#enter{
+    align-items: start;
+    font-size: large;
+}
+.nav-link{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(193, 186, 186);
+    padding: 0.5rem;
+}
+#hr1{
+    border:1px solid white;
+}
+#loginForm, #signUpForm{
+    width: 95%;
+    max-width: 400px;
+    margin:auto;
+}
+
+#logo{
+    width: 10rem;
+}
+#loginButton{
+    width: 5rem;
+    border-width: 3px;
+    margin-right: 1rem;
+}
+#loginCancelBtn,#signUpCancelBtn{
+    position: absolute;
+    display: block;
+    right: 0.5rem;
+    top: 0.5rem;
+    background-color: rgb(61, 14, 14);
+}
+
+#loginSubmit, #signUpSubmit{
+    width: 10rem;
+    max-width: 150px;
+    display: block;
+    margin:auto;
+}
+
+#person{
+    width: 90px;
+    height: auto;
+    max-width: 150px;
+    display: block;
+    margin:auto;
+}
+#profileName{
+    box-sizing: content-box;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+}
+#profileName:hover{
+    cursor: pointer;
+}
+#headerUsername{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}

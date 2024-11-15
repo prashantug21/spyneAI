@@ -1,0 +1,15 @@
+.SellForm{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+#sellPageHeading{
+    margin-top: 2rem;
+    font-size: 3.9em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}

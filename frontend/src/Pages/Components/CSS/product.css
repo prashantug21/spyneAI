@@ -1,0 +1,32 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+  }
+  
+.product {
+    max-width: 500px;
+    width: 95%;
+    border-radius: 12px;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .cost{
+    align-items: center;
+  }
+  .imageDiv {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(232, 229, 226);
+    overflow: hidden;
+    
+  }
+  .imageDiv img{
+    width: 80%;
+    height: auto;
+    margin: 15px auto;
+  }
